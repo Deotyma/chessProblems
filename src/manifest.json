@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "chessProblems",
+    "version": "1.0",
+    "description": "Solve a chess exercise before accessing a page",
+    "permissions": ["storage"],
+    "host_permissions": ["<all_urls>"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "src/popup.html",
+      "default_icon": {
+        "16": "icons/icon.png",
+        "48": "icons/icon.png",
+        "128": "icons/icon.png"
+      }
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  

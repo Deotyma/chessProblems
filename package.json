@@ -1,0 +1,30 @@
+{
+  "name": "chessproblems",
+  "version": "1.0.0",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deotyma/chessProblems.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deotyma/chessProblems/issues"
+  },
+  "homepage": "https://github.com/Deotyma/chessProblems#readme",
+  "description": "",
+  "dependencies": {
+    "@chrisoakman/chessboardjs": "^1.0.0",
+    "chess.js": "^1.1.0",
+    "vite": "^6.2.2"
+  },
+  "devDependencies": {
+    "vite-plugin-static-copy": "^2.3.1"
+  }
+}
