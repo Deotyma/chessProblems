@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>chess Problems</title>
+  <meta charset="UTF-8" />
+  <title>Chess Problem</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../assets/chessground.base.css">
+  <link rel="stylesheet" href="../assets/chessground.brown.css">
+  <link rel="stylesheet" href="../assets/chessground.cburnett.css">
+  <style>
+    #board {
+      width: 450px;
+      height: 450px;
+      margin: 20px auto;
+    }
+  </style>
 </head>
 <body>
-    <h1> test</h1>
-    <img src="icons/chess-board.svg" alt="">
+  <h1 style="text-align:center;">Solve this:</h1>
+  <div id="board"></div>
+
+  <!-- ton JS bundlé -->
+  <script type="module" src="./popup.js"></script>
 </body>
 </html>
