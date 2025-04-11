@@ -21,6 +21,7 @@
   "homepage": "https://github.com/Deotyma/chessProblems#readme",
   "description": "",
   "dependencies": {
+    "axios": "^1.8.4",
     "chess.js": "^1.2.0",
     "chessground": "^9.1.1",
     "vite": "^6.2.2"
